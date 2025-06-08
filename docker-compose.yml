@@ -34,7 +34,7 @@ services:
     depends_on:
       - php-fpm
     ports:
-      - 5080:80
+      - 8080:80
     volumes:
       - public:/var/www/html/
 
